@@ -3,6 +3,9 @@
   xmlns:dist="http://schemas.android.com/apk/distribution"
   package="com.codingdenick.telephonydemo">
 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
       android:allowBackup="true"
       android:icon="@mipmap/ic_launcher"
